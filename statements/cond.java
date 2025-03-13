@@ -5,7 +5,7 @@ public class cond{
         {
             System.out.println("this is true ");
         }
-        else{
+        if(a){
             System.out.println("This is false");
         }
 
