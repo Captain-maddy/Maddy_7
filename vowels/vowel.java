@@ -6,29 +6,27 @@ public class vowel{
         System.out.println("enter a alphabet");
         Scanner obj=new Scanner(System.in);
         String m=obj.nextLine();
-        if(m=="a"){
-            System.out.println("This is vowel ");
+        int k=0;
+        int i=0;
+        String n[]={"a","e","i","o","u"};
+        while(i<5){
+            if(m.equals(n[i])){
+                 k=1;
+            }
+            i++;
+            
+            
+            
+        }
+        if(k==1){
+            System.out.println("this is vowel");
 
+            }
+        if(k==0){
+            System.out.println("This is not vowel");
         }
-        if(m=="e"){
-            System.out.println("This is vowel ");
-
         }
-        if(m=="i"){
-            System.out.println("This is vowel ");
-
-        }
-        if(m=="o"){
-            System.out.println("This is vowel ");
-
-        }
-        if(m=="u"){
-            System.out.println("This is vowel ");
-
-        }
-        else{
-            System.out.println("This is constant");
-        }
+       
         
         
         
@@ -41,4 +39,4 @@ public class vowel{
      
        }
     
-}
+
