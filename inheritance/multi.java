@@ -1,8 +1,8 @@
 public class multi {
     
     public static void main(String[] args){
-        child obj=new child();
-        obj.display();
+        child2 obj=new child2();
+        obj.print();
 
 
     }
