@@ -23,7 +23,7 @@ public class multi {
 
     class child2 extends child{
         void print(){
-            display();;
+            display();
         }
     }
 
